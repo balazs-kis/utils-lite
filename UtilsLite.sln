@@ -3,22 +3,22 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UtilsLite", "UtilsLite\UtilsLite.csproj", "{36EFDC49-2AF0-428B-AD4D-526ACDAB0B67}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UtilsLite", "UtilsLite\UtilsLite.csproj", "{36EFDC49-2AF0-428B-AD4D-526ACDAB0B67}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{3F378BA6-5E55-4BE0-A196-6BB104F407F0}"
 	ProjectSection(SolutionItems) = preProject
-		..\LICENSE = ..\LICENSE
-		..\README.md = ..\README.md
+		LICENSE = LICENSE
+		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UtilsLite.Tests", "UtilsLite.Tests\UtilsLite.Tests.csproj", "{5810D95B-274E-4E89-A57B-9325BA15481B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UtilsLite.Tests", "UtilsLite.Tests\UtilsLite.Tests.csproj", "{5810D95B-274E-4E89-A57B-9325BA15481B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Logo", "Logo", "{D36A7D07-8681-489D-92F6-CBAAAEA59B8D}"
 	ProjectSection(SolutionItems) = preProject
-		..\Logo\logo-title.png = ..\Logo\logo-title.png
-		..\Logo\logo-title.svg = ..\Logo\logo-title.svg
-		..\Logo\logo.png = ..\Logo\logo.png
-		..\Logo\logo.svg = ..\Logo\logo.svg
+		Logo\logo-title.png = Logo\logo-title.png
+		Logo\logo-title.svg = Logo\logo-title.svg
+		Logo\logo.png = Logo\logo.png
+		Logo\logo.svg = Logo\logo.svg
 	EndProjectSection
 EndProject
 Global
