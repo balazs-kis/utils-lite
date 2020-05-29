@@ -2,4 +2,6 @@
 
 Small tools (object pool, retry logic, automatic mapping etc.) for .NET Standard.
 
-# TODO: examples
+## Examples
+
+TODO
