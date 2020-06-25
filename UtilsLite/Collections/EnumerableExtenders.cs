@@ -26,12 +26,38 @@ namespace UtilsLite.Collections
             return c.FirstOrDefault(i => selector(i).Equals(max));
         }
 
+        public static TItem MaxByOrDefault<TItem, TQuantity>(this IEnumerable<TItem> collection, Func<TItem, TQuantity> selector)
+        {
+            var c = collection.ToArray();
+
+            if (!c.Any())
+            {
+                return default;
+            }
+
+            var max = c.Select(selector).Max();
+            return c.FirstOrDefault(i => selector(i).Equals(max));
+        }
+
         public static TItem MinBy<TItem, TQuantity>(this IEnumerable<TItem> collection, Func<TItem, TQuantity> selector)
         {
             var c = collection.ToArray();
 
             var max = c.Select(selector).Min();
             return c.FirstOrDefault(i => selector(i).Equals(max));
+        }
+
+        public static TItem MinByOrDefault<TItem, TQuantity>(this IEnumerable<TItem> collection, Func<TItem, TQuantity> selector)
+        {
+            var c = collection.ToArray();
+
+            if (!c.Any())
+            {
+                return default;
+            }
+
+            var min = c.Select(selector).Min();
+            return c.FirstOrDefault(i => selector(i).Equals(min));
         }
     }
 }
