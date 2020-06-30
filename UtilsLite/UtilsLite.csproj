@@ -1,11 +1,26 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>balazs.kis</Authors>
+    <Description>Utils Lite is a small package containing tools (object pool, retry logic, automatic mapping etc.) for .NET Standard</Description>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/balazs-kis/utils-lite</PackageProjectUrl>
+    <PackageIcon>logo.png</PackageIcon>
+    <PackageIconUrl />
+    <RepositoryUrl>https://github.com/balazs-kis/utils-lite</RepositoryUrl>
+    <RepositoryType>Github</RepositoryType>
+    <PackageTags>tools toolkit dotnet dotnet-core objectpool objectpool-pattern helpers generic-library mapper retry</PackageTags>
+    <PackageId>UtilsLite</PackageId>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <AssemblyVersion>0.1.0.0</AssemblyVersion>
+    <FileVersion>0.1.0.0</FileVersion>
+    <Version>0.1.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="MSTest.TestFramework" Version="2.1.0" />
+    <None Include="..\LICENSE" Pack="true" Visible="false" PackagePath="" />
+    <None Include="..\Logo\logo.png" Pack="true" Visible="false" PackagePath="" />
   </ItemGroup>
 
 </Project>
