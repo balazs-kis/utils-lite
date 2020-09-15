@@ -2,7 +2,7 @@
 
 Small tools (object pool, retry logic, automatic mapping etc.) for .NET Standard.
 
-[![Build Status](https://travis-ci.org/balazs-kis/utils-lite.svg?branch=master)](https://travis-ci.org/balazs-kis/utils-lite)
+[![Build Status](https://travis-ci.com/balazs-kis/utils-lite.svg?branch=master)](https://travis-ci.com/balazs-kis/utils-lite)
 [![Coverage Status](https://coveralls.io/repos/github/balazs-kis/utils-lite/badge.svg?branch=master)](https://coveralls.io/github/balazs-kis/utils-lite?branch=master)
 [![Nuget](https://img.shields.io/nuget/v/UtilsLite)](https://www.nuget.org/packages/UtilsLite)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blueviolet)](https://opensource.org/licenses/MIT)
